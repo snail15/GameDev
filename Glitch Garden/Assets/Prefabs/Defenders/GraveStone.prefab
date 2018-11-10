@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4363230011446748}
   - component: {fileID: 212631115136822476}
   - component: {fileID: 95201860609922348}
+  - component: {fileID: 65825105396955358}
+  - component: {fileID: 114914762941382322}
   m_Layer: 0
   m_Name: GraveStone
   m_TagString: Untagged
@@ -41,6 +43,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65825105396955358
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1930472242459606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.81, y: 1.57, z: 0.2}
+  m_Center: {x: 0, y: 0.07, z: 0}
 --- !u!95 &95201860609922348
 Animator:
   serializedVersion: 3
@@ -59,6 +73,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114914762941382322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1930472242459606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc982dc990a8bb4aac4bb9923161e1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212631115136822476
 SpriteRenderer:
   m_ObjectHideFlags: 1
